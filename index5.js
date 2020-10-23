@@ -5,10 +5,10 @@ const differentData=(arr)=>{
      
       if (typeof item === 'number') {
 
-      res.push(item *2 ) ;
+      res.push((item*2).toString()) ;
   
    };
-
+ 
    if (typeof item === 'string'){
 
      res.push(item.toLocaleUpperCase()) 
